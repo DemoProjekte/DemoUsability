@@ -1,9 +1,9 @@
 ---
-title: "Untitled"
-author-inputfile: "anonauthors.tex" 
+title: "Der Titel des Papers"
+author-inputfile: "authors.tex" 
 abstract: |
   The abstract should briefly summarize the contents of the paper in 150--250 words.
-keywords: "First keyword \\and Second keyword \\and Another keyword."
+keywords: "Online Medien \\and Misinformation \\and Was spannendes."
 bibliography: ["rpackages.bib", "bibliography.bib"]
 biblio-style: "apalike"
 link-citations: true
@@ -46,7 +46,7 @@ library(cowplot)
 ## A Subsection Sample
 Please note that the first paragraph of a section or subsection is
 not indented. The first paragraph that follows a table, figure,
-equation etc. does not need an indent, either.
+equation etc. does not need an indent, either [@del2016spreading].
 
 Subsequent paragraphs, however, are indented.
 
@@ -130,7 +130,7 @@ iris %>% ggplot() + aes(x = Sepal.Length) + geom_histogram() + cowplot::theme_mi
 
 
 
-```{r eval=FALSE, include=FALSE, results="asis"}
+```{r eval=TRUE, include=TRUE, results="asis"}
 # This creates a "thightlist" of all packages added to the prepare_bibliography.R
 # set include and eval to TRUE to enable
 cat("\n\n# Used Packages\n\n")
