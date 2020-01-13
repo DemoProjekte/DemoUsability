@@ -41,6 +41,9 @@ library(cowplot)
 # add libraries here
 ```
 
+# Konflikte
+Hier soll ein Konflikt entstehen.
+
 
 # First Section
 ## A Subsection Sample
